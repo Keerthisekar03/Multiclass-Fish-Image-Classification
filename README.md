@@ -55,6 +55,7 @@ Model Training CNN from Scratch: Start by building a basic CNN model and train i
 # Pre-trained Models: Experiment with five different pre-trained models: 
 
 VGG16 ResNet50 MobileNet InceptionV3 EfficientNetB0 Fine-tuning: Fine-tune each pre-trained model by training only the top layers on the fish dataset, keeping the lower layers frozen.
+
 # Saving the Best Model:
 After training, save the model with the highest accuracy in either .h5 or .pkl format for future use.
 # Model Evaluation Metrics: 
@@ -77,7 +78,9 @@ Evaluate models using various metrics like accuracy, precision, and recall.
 Build and deploy a Streamlit app that allows for real-time predictions on user-uploaded fish images.
 # Saving the Model: 
 After training, save the best performing model (based on validation accuracy) for future use.
+
 ## Tools & Technologies
+
 1.Deep Learning Framework: TensorFlow/Keras 
 
 2.Web Framework: Streamlit 
