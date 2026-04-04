@@ -58,7 +58,8 @@ VGG16 ResNet50 MobileNet InceptionV3 EfficientNetB0 Fine-tuning: Fine-tune each 
 # Saving the Best Model:
 After training, save the model with the highest accuracy in either .h5 or .pkl format for future use.
 # Model Evaluation Metrics: 
-Evaluate models using: Accuracy Precision Recall F1-Score Confusion Matrix: To observe class imbalances or misclassifications. 
+Evaluate models using: Accuracy Precision Recall F1-Score 
+Confusion Matrix: To observe class imbalances or misclassifications. 
 Visualization: Plot training/validation accuracy and loss curves for each model. Display model performance metrics and visualizations for comparison.
 # Deployment Streamlit App: 
 Image Upload: Allow users to upload a fish image. 
