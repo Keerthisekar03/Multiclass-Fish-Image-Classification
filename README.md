@@ -4,8 +4,11 @@ Project Domain:  Image Classification: Classifying images of fish into different
 
 ## Skills:
 -Deep Learning, Python, TensorFlow/Keras,
+
 -Streamlit, Data Preprocessing, Transfer Learning,
+
 -Model Evaluation, Visualization, Model
+
 -Model Deployment.
 
 ## Problem Statement:
@@ -36,7 +39,9 @@ Moreover, it showcases how state-of-the-art machine learning models can be appli
 Problem Statement The goal of this project is to classify images of fish into multiple categories using deep learning models. The main tasks include: 
 
 1.Training a Convolutional Neural Network (CNN) from scratch. 
+
 2.Leveraging transfer learning by utilizing pre-trained models to improve accuracy. 
+
 3.Saving the trained models for future use. 4.Deploying a Streamlit application for users to upload images and receive real-time predictions.
 
 ## Approach
@@ -73,9 +78,14 @@ Build and deploy a Streamlit app that allows for real-time predictions on user-u
 After training, save the best performing model (based on validation accuracy) for future use.
 ## Tools & Technologies
 1.Deep Learning Framework: TensorFlow/Keras 
+
 2.Web Framework: Streamlit 
+
 3.Programming Language: Python 
+
 4.Model Evaluation: Matplotlib, Seaborn (for visualization) 
+
 5.Version Control: Git/GitHub 
+
 This project will help develop a solid understanding of deep learning techniques, transfer learning, and practical deployment, providing valuable experience for real-world applications.
 
