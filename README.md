@@ -48,35 +48,35 @@ Problem Statement The goal of this project is to classify images of fish into mu
 
 Data Preprocessing and Augmentation Rescaling: Normalize the image data by scaling the pixel values to the range [0, 1]. 
 
-# Data Augmentation: 
+## Data Augmentation: 
 Implement techniques like: Rotation Zoom Flipping Shearing Shifting These techniques enhance the model's robustness by artificially increasing the dataset size.
 Model Training CNN from Scratch: Start by building a basic CNN model and train it from scratch to establish a baseline.
 
-# Pre-trained Models: Experiment with five different pre-trained models: 
+## Pre-trained Models: Experiment with five different pre-trained models: 
 
 VGG16 ResNet50 MobileNet InceptionV3 EfficientNetB0 Fine-tuning: Fine-tune each pre-trained model by training only the top layers on the fish dataset, keeping the lower layers frozen.
 
-# Saving the Best Model:
+## Saving the Best Model:
 After training, save the model with the highest accuracy in either .h5 or .pkl format for future use.
-# Model Evaluation Metrics: 
+## Model Evaluation Metrics: 
 Evaluate models using: Accuracy Precision Recall F1-Score 
 Confusion Matrix: To observe class imbalances or misclassifications. 
 Visualization: Plot training/validation accuracy and loss curves for each model. Display model performance metrics and visualizations for comparison.
-# Deployment Streamlit App: 
+## Deployment Streamlit App: 
 Image Upload: Allow users to upload a fish image. 
 Prediction: Display the predicted fish category. 
 Confidence Score: Show the model’s confidence in the prediction (probability of the classification).
-# Documentation and Deliverables GitHub Repository:
+## Documentation and Deliverables GitHub Repository:
 A complete codebase. README file with detailed explanation of the approach, setup instructions, and results. Documentation of the training process, model selection, and evaluation.
-# Dataset The dataset consists of fish images grouped into folders, each representing a species. Loading and Preprocessing: 
+## Dataset The dataset consists of fish images grouped into folders, each representing a species. Loading and Preprocessing: 
 Use TensorFlow's ImageDataGenerator for efficient loading, scaling, and augmentation of images during training. Implementation Workflow
-# Data Loading and Preprocessing: 
+## Data Loading and Preprocessing: 
 Load images using ImageDataGenerator and apply rescaling and augmentation.
-# Evaluation: 
+## Evaluation: 
 Evaluate models using various metrics like accuracy, precision, and recall.
-# Streamlit Deployment: 
+## Streamlit Deployment: 
 Build and deploy a Streamlit app that allows for real-time predictions on user-uploaded fish images.
-# Saving the Model: 
+## Saving the Model: 
 After training, save the best performing model (based on validation accuracy) for future use.
 
 ## Tools & Technologies
