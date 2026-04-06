@@ -1,0 +1,19 @@
+# Core
+tensorflow>=2.12.0
+numpy>=1.23.0
+pandas>=2.0.0
+pillow>=9.5.0
+scikit-learn>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Notebook
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+jupyter>=1.0.0
+
+# App
+streamlit>=1.28.0
